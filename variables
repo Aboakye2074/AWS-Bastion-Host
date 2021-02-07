@@ -1,0 +1,11 @@
+provider "aws" {
+region = "us-west-2"
+}
+
+variable profile {
+    default="personal"
+}
+
+variable instance-ami {
+    default= "ami-0e999cbd62129e3b1"
+}
